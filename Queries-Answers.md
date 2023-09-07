@@ -1,8 +1,8 @@
 # MongoDB Queries and Answers
 
 ## 1. Find all the information about each product
-   
-    db.product.find()
+      ```javascript
+          db.product.find()
 
 ## 2. Find the product price which is between 400 to 800
     ```javascript
