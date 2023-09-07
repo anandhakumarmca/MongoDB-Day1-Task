@@ -1,6 +1,7 @@
 # MongoDB Queries and Answers
 
 ## 1. Find all the information about each product
+
 ```javascript
 db.product.find()
 
