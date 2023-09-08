@@ -52,9 +52,12 @@
     {$match: {count: {$gt: 1}}}]).forEach((e) => 
     {db.product.deleteMany({product_price: e._id});})
 
+## Before Delete Query DB status
 ![Query10](https://github.com/anandhakumarmca/MongoDB-Day1-Task/blob/88bd55a50dedad91367a9dbbae4229795446f84f/ScreenShorts/18.a.Before-delete-query.png)
 
+## Delete Query 
 ![Query10](https://github.com/anandhakumarmca/MongoDB-Day1-Task/blob/88bd55a50dedad91367a9dbbae4229795446f84f/ScreenShorts/19.10'th-Delete-query.png)
 
+## After Delete Query DB status
 ![Query10](https://github.com/anandhakumarmca/MongoDB-Day1-Task/blob/88bd55a50dedad91367a9dbbae4229795446f84f/ScreenShorts/20-After-delete-query.png)
 
