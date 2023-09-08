@@ -3,7 +3,7 @@
 ## 1. Find all the information about each product
     db.product.find()
 
-![Alt Text]((https://github.com/anandhakumarmca/MongoDB-Day1-Task/blob/d38c66bc18045479f2576313cbe28a3382332d25/ScreenShorts/9.a.1'st-query-answer.png))
+![Alt Text](https://github.com/anandhakumarmca/MongoDB-Day1-Task/blob/d38c66bc18045479f2576313cbe28a3382332d25/ScreenShorts/9.a.1'st-query-answer.png)
 
 ## 2. Find the product price which is between 400 to 800
     db.product.find({product_price: {$lt: 800, $gt: 400}})
